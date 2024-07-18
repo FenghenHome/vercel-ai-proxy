@@ -1,31 +1,27 @@
 {
     "routes": [
         {
-            "src": "/gemini/v1/(.*)",
-            "dest": "https://generativelanguage.googleapis.com/v1/$1"
-        },
-        {
-            "src": "/gemini/v1beta/(.*)",
-            "dest": "https://generativelanguage.googleapis.com/v1beta/$1"
-        },
-        {
             "src": "/openai/v1/(.*)",
             "dest": "https://api.openai.com/v1/$1"
-        },
-        {
-            "src": "/groq/openai/v1/(.*)",
-            "dest": "https://api.groq.com/openai/v1/$1"
-        },
-        {
-            "src": "/claude/v1/(.*)",
-            "dest": "https://api.anthropic.com/v1/$1"
-        },
-        {
-            "src": "/cohere/v1/(.*)",
-            "dest": "https://api.cohere.ai/v1/$1"
         }
     ],
     "regions": [
-        "hnd1"
+        "sin1",
+        "cdg1",
+        "arn1",
+        "dub1",
+        "lhr1",
+        "iad1",
+        "sfo1",
+        "pdx1",
+        "cle1",
+        "gru1",
+        "hnd1",
+        "icn1",
+        "kix1",
+        "bom1",
+        "syd1",
+        "fra1",
+        "cpt1"
     ]
 }
